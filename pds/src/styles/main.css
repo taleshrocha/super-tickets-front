@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+imgStyle{
+    Width: 32;
+    Height: 32
+}
