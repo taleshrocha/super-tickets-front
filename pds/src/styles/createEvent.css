@@ -29,7 +29,7 @@
 
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 800;
     font-size: 20px;
     line-height: 30px;
     text-align: center;
@@ -37,8 +37,10 @@
 
     color: #FFFFFF;
 
-    border: 1px solid #000000;
+    
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 1px #111;
+    -webkit-text-stroke: 1px #111;
 }
 
 .txt2{
@@ -64,4 +66,167 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     -webkit-text-stroke: 2px #111;
     -webkit-text-stroke: 2px #111;
+}
+
+.Infos-Box{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 800px;
+    height: 950px;
+    left: 562px;
+    top: 450px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+}
+.textInfoEventos{
+    position: absolute;
+    width: 614px;
+    height: 60px;
+    left: 90px;
+    top: 0px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.textNomeEvento{
+    position: absolute;
+    width: 180px;
+    height: 27px;
+    left: 127px;
+    top: 101px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    color: #888888;
+
+}
+
+.Box-Nome-Evento{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 540px;
+    height: 55px;
+    left: 127px;
+    top: 128px;
+
+    background: rgba(136, 136, 136, 0.02);
+    border: 1px solid #888888;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.Nome-Input{
+    width: 540px;
+    height: 55px;
+
+    font-size: 25px;
+    font-family: 'Comics';
+    font-style: normal;
+}
+
+.textURLEvento{
+    position: absolute;
+    width: 180px;
+    height: 27px;
+    left: 127px;
+    top: 200px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    color: #888888;
+
+}
+
+.Box-URL-Evento{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 540px;
+    height: 55px;
+    left: 127px;
+    top: 227px;
+
+    background: rgba(136, 136, 136, 0.02);
+    border: 1px solid #888888;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.URL-Input{
+    width: 540px;
+    height: 55px;
+
+    font-size: 25px;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.Evento-Detalhes-txt{
+    position: absolute;
+    width: 180px;
+    height: 27px;
+    left: 127px;
+    top: 301px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    color: #888888;
+}
+
+.Evento-Detalhes-Box{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 540px;
+    height: 350px;
+    left: 127px;
+    top: 328px;
+
+    background: rgba(136, 136, 136, 0.02);
+    border: 1px solid #888888;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.Detalhes-Input{
+    width: 540px;
+    height: 350px;
+
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    text-align: left;
 }
