@@ -30,14 +30,33 @@
     padding: 15px;
 }
 
+.Cadastro{
+    height: 200px;
+    background-image: linear-gradient(to left,  #FFFF00, #FF8C00 );
+    color: black;
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+text{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
 .Cadastro-form{
     width: 390px;
+    height: 400px;
     background-color: #fff;
     border-radius: 8px;
-    gap: 110px;
+    gap: 11px;
+    position: absolute;
+    top: 150px;
 
     overflow: hidden;
-    padding: 77px 55px 33px 55px;
+    padding: 10px 55px 33px 55px;
     
     box-shadow: 0 5px 10px 0 rgba(0,0,0.2);
 
@@ -47,23 +66,96 @@
     justify-content: center;
 }
 
-.Wrap-input{
-    align-self: top;
-    width: 100%;
-    position: static;
-    border-bottom: 2px solid #adadad;
-    margin-bottom: 37px;
+.Wrap-Cadastro{
+    position: relative;
+    align-items: row;
 }
 
-.Input{
+.Wrap-Email{
+    display: flex;
+    flex-direction: row;
+    min-width: 350px;
+
+    position: absolute;
+    top: 100px;
+    left: -275px;
+}
+
+.Wrap-Password{
+    display: flex;
+    flex-direction: row;
+    min-width: 350px;
+
+    position: absolute;
+    top: 150px;
+    left: -275px;
+}
+
+.Wrap-Name{
+    display: flex;
+    flex-direction: row;
+    min-width: 350px;
+
+    position: absolute;
+    top: 200px;
+    left: -275px;
+}
+
+.Wrap-Document{
+    display: flex;
+    flex-direction: row;
+    min-width: 350px;
+
+    position: absolute;
+    top: 250px;
+    left: -275px;
+}
+.Contairn-form-cads-btn{
+    position: absolute;
+    top: 315px;
+    left: -175px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 13px;
+}
+
+.Form-cads-btn{
+    font-size: 15px;
+    font-weight: 500;
+    border: #111;
+    border-radius: 8px;
+    color: #111;
+
+    line-height: 1.2;
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100px;
+    height: 35px;
+    
+    background: -webkit-transition(to left, #FF8C00, #FFFF00 );
+    background: -o-transition(to left,  #FF8C00, #FFFF00 );
+    background: -moz-transition(to left,  #FF8C00, #FFFF00 );
+    background: linear-gradient(to left,  #FF8C00, #FFFF00 );
+}
+
+input{
     font-size: 15px;
     color: #111;
     line-height: 1.2;
-    border: #111;
+    border: none;
     display: block;
 
-    width: 175px;
-    height: 35px;
+    width: 100%;
+    height: 45px;
 
-    padding: 5px;
+    background-color: transparent;
+
+    padding: 0 5px;
 }
+
