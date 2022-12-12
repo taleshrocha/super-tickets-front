@@ -67,7 +67,7 @@
     -webkit-text-stroke: 2px #111;
     -webkit-text-stroke: 2px #111;
 }
-
+/* Detalhes */
 .Infos-Box{
     box-sizing: border-box;
 
@@ -363,4 +363,718 @@
     font-family: 'Poppins';
     font-style: normal;
     text-align: left;
+}
+/* Tickets */
+.Ticket-Box{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 800px;
+    height: 950px;
+    left: 562px;
+    top: 1450px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+}
+
+.textTicketEventos{
+    position: absolute;
+    width: 614px;
+    height: 60px;
+    left: 90px;
+    top: 0px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.textNomeTicket{
+    position: absolute;
+    width: 180px;
+    height: 27px;
+    left: 127px;
+    top: 101px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    color: #888888;
+
+}
+
+.Box-Nome-Ticket{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 180px;
+    height: 55px;
+    left: 127px;
+    top: 128px;
+
+    background: rgba(136, 136, 136, 0.02);
+    border: 1px solid #888888;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.Nome-Ticket-Input{
+    width: 180px;
+    height: 55px;
+
+    font-size: 25px;
+    font-family: 'Comics';
+    font-style: normal;
+}
+
+.textQuantidadeTicket{
+    position: absolute;
+    width: 180px;
+    height: 27px;
+    left: 332px;
+    top: 101px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    color: #888888;
+
+}
+
+.Box-Quantidade-Ticket{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 100px;
+    height: 55px;
+    left: 332px;
+    top: 128px;
+
+    background: rgba(136, 136, 136, 0.02);
+    border: 1px solid #888888;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.Quantidade-Ticket-Input{
+    width: 100px;
+    height: 55px;
+
+    font-size: 25px;
+    font-family: 'Comics';
+    font-style: normal;
+}
+
+.textValorTicket{
+    position: absolute;
+    width: 180px;
+    height: 27px;
+    left: 457px;
+    top: 101px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    color: #888888;
+
+}
+
+.Box-Valor-Ticket{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 100px;
+    height: 55px;
+    left: 457px;
+    top: 128px;
+
+    background: rgba(136, 136, 136, 0.02);
+    border: 1px solid #888888;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.Valor-Ticket-Input{
+    width: 100px;
+    height: 55px;
+
+    font-size: 25px;
+    font-family: 'Comics';
+    font-style: normal;
+}
+
+.textIdadeTicket{
+    position: absolute;
+    width: 180px;
+    height: 27px;
+    left: 127px;
+    top: 200px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    color: #888888;
+
+}
+.Box-Idade-Ticket{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 100px;
+    height: 55px;
+    left: 127px;
+    top: 227px;
+
+    background: rgba(136, 136, 136, 0.02);
+    border: 1px solid #888888;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.Idade-Input{
+    width: 100px;
+    height: 55px;
+
+    font-size: 25px;
+    font-family: 'Comics';
+    font-style: normal;
+}
+
+.Ticket-Detalhes-txt{
+    position: absolute;
+    width: 180px;
+    height: 27px;
+    left: 127px;
+    top: 301px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    color: #888888;
+}
+
+.Ticket-Detalhes-Box{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 540px;
+    height: 350px;
+    left: 127px;
+    top: 328px;
+
+    background: rgba(136, 136, 136, 0.02);
+    border: 1px solid #888888;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.Ticket-Detalhes-Input{
+    width: 540px;
+    height: 350px;
+
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    text-align: left;
+}
+
+.Ticket-Inicio-txt{
+    position: absolute;
+    width: 180px;
+    height: 27px;
+    left: 127px;
+    top: 727px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    color: #888888;
+}
+
+.Ticket-Inicio-Box{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 150px;
+    height: 55px;
+    left: 127px;
+    top: 750px;
+
+    background: rgba(136, 136, 136, 0.02);
+    border: 1px solid #888888;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.Ticket-Inicio-Input{
+    width: 150px;
+    height: 55px;
+
+    font-size: 25px;
+    font-family: 'Poppins';
+    font-style: normal;
+    text-align: left;
+}
+
+.Ticket-Hora-Inicio-Box{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 75px;
+    height: 55px;
+    left: 302px;
+    top: 750px;
+
+    background: rgba(136, 136, 136, 0.02);
+    border: 1px solid #888888;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.Ticket-Hora-Inicio-Input{
+    width: 75px;
+    height: 55px;
+
+    font-size: 25px;
+    font-family: 'Poppins';
+    font-style: normal;
+    text-align: left;
+}
+
+.Ticket-Fim-txt{
+    position: absolute;
+    width: 180px;
+    height: 27px;
+    right: 195px;
+    top: 727px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    color: #888888;
+}
+
+.Ticket-Fim-Box{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 150px;
+    height: 55px;
+    right: 227px;
+    top: 750px;
+
+    background: rgba(136, 136, 136, 0.02);
+    border: 1px solid #888888;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.Ticket-Fim-Input{
+    width: 150px;
+    height: 55px;
+
+    font-size: 25px;
+    font-family: 'Poppins';
+    font-style: normal;
+    text-align: left;
+}
+
+.Ticket-Hora-Fim-Box{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 75px;
+    height: 55px;
+    right: 127px; 
+    top: 750px;
+
+    background: rgba(136, 136, 136, 0.02);
+    border: 1px solid #888888;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.Ticket-Hora-Fim-Input{
+    width: 75px;
+    height: 55px;
+
+    font-size: 25px;
+    font-family: 'Poppins';
+    font-style: normal;
+    text-align: left;
+}
+/*Local*/
+.Local-Box{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    left: 562px;
+    top: 2450px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+}
+
+
+.textLocal{
+    position: absolute;
+    width: 614px;
+    height: 60px;
+    left: 90px;
+    top: 0px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.textLocalEvento{
+    position: absolute;
+    width: 180px;
+    height: 27px;
+    left: 127px;
+    top: 101px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    color: #888888;
+
+}
+
+.Box-Local-Evento{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 380px;
+    height: 55px;
+    left: 127px;
+    top: 128px;
+
+    background: rgba(136, 136, 136, 0.02);
+    border: 1px solid #888888;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.Local-Input{
+    width: 380px;
+    height: 55px;
+
+    font-size: 25px;
+    font-family: 'Comics';
+    font-style: normal;
+}
+
+.textCEPEvento{
+    position: absolute;
+    width: 180px;
+    height: 27px;
+    left: 525px;
+    top: 101px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    color: #888888;
+
+}
+
+.Box-CEP-Evento{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 180px;
+    height: 55px;
+    left: 525px;
+    top: 128px;
+
+    background: rgba(136, 136, 136, 0.02);
+    border: 1px solid #888888;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.CEP-Input{
+    width: 180px;
+    height: 55px;
+
+    font-size: 25px;
+    font-family: 'Comics';
+    font-style: normal;
+}
+
+.textEnderecoEvento{
+    position: absolute;
+    width: 180px;
+    height: 27px;
+    left: 127px;
+    top: 200px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    color: #888888;
+
+}
+
+.Box-Endereco-Evento{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 580px;
+    height: 55px;
+    left: 127px;
+    top: 227px;
+
+    background: rgba(136, 136, 136, 0.02);
+    border: 1px solid #888888;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.Endereco-Input{
+    width: 580px;
+    height: 55px;
+
+    font-size: 25px;
+    font-family: 'Comics';
+    font-style: normal;
+}
+
+.textNumeroEvento{
+    position: absolute;
+    width: 180px;
+    height: 27px;
+    left: 127px;
+    top: 309px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    color: #888888;
+
+}
+
+.Box-Numero-Evento{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 100px;
+    height: 55px;
+    left: 127px;
+    top: 346px;
+
+    background: rgba(136, 136, 136, 0.02);
+    border: 1px solid #888888;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.Numero-Input{
+    width: 100px;
+    height: 55px;
+
+    font-size: 25px;
+    font-family: 'Comics';
+    font-style: normal;
+}
+
+.textComplementoEvento{
+    position: absolute;
+    width: 300px;
+    height: 27px;
+    left: 250px;
+    top: 309px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    color: #888888;
+
+}
+
+.Box-Complemento-Evento{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 180px;
+    height: 55px;
+    left: 250px;
+    top: 346px;
+
+    background: rgba(136, 136, 136, 0.02);
+    border: 1px solid #888888;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.Complemento-Input{
+    width: 180px;
+    height: 55px;
+
+    font-size: 25px;
+    font-family: 'Comics';
+    font-style: normal;
+}
+
+.textCidadeEvento{
+    position: absolute;
+    width: 300px;
+    height: 27px;
+    left: 450px;
+    top: 309px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    color: #888888;
+
+}
+
+.Box-Cidade-Evento{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 180px;
+    height: 55px;
+    left: 450px;
+    top: 346px;
+
+    background: rgba(136, 136, 136, 0.02);
+    border: 1px solid #888888;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.Cidade-Input{
+    width: 180px;
+    height: 55px;
+
+    font-size: 25px;
+    font-family: 'Comics';
+    font-style: normal;
+}
+
+.textEstadoEvento{
+    position: absolute;
+    width: 100px;
+    height: 27px;
+    left: 650px;
+    top: 309px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    color: #888888;
+
+}
+
+.Box-Estado-Evento{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 50px;
+    height: 55px;
+    left: 650px;
+    top: 346px;
+
+    background: rgba(136, 136, 136, 0.02);
+    border: 1px solid #888888;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.Estado-Input{
+    width: 50px;
+    height: 55px;
+
+    font-size: 25px;
+    font-family: 'Comics';
+    font-style: normal;
 }
